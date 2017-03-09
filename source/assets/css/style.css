@@ -14,6 +14,7 @@
 body {
 	padding-top: 50px;
 	font-family: 'Roboto', sans-serif;
+	color: #363636;
 }
 
 .lead strong {
@@ -55,6 +56,24 @@ h1, h2, h3, h4 {
 	margin-top: 0;
 }
 
+.display {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+	text-transform: uppercase;
+}
+
+.hero {
+    font-family: "Oswald",sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 55px;
+}
+
+.vintageshadow {
+    text-shadow: -1px 1px 0 #fff, -2px 2px 0 #cca55f;
+}
 
 
 
@@ -85,22 +104,10 @@ h1, h2, h3, h4 {
 
 \* --------------------------------- */
 
-.color-tile {
-	padding: 20px;
-	margin-bottom: 30px;
-}
-
-
-
-
-/* --------------------------------- *\
-
-	responsive styles
-
-\* --------------------------------- */
-
 /* background
 ------------- */
+
+/* primary */
 
 .moradared-bg {background: #b5152b; color: #ffffff;}
 .moradared-bg small {color: #ffffff;}
@@ -114,23 +121,33 @@ h1, h2, h3, h4 {
 .metrogreydark-bg {background: #363636; color: #ffffff;}
 .metrogreydark-bg small {color: #ffffff;}
 
+
+/* secondary */
+
 .metrored-bg {background: #C0392B; color:#ffffff;}
 .metrored-bg small {color: #ffffff;}
 
 .metrogreen-bg {background: #5CBE46; color:#ffffff;}
+.metrogreen-light-bg {background: #7DCB6B; color:#ffffff;}
 .metrogreen-bg small {color: #ffffff;}
 
 .metrocyan-bg {background: #0DC2A7; color:#ffffff;}
+.metrocyan-light-bg {background: #3DCEB9; color:#ffffff;}
 .metrocyan-bg small {color: #ffffff;}
 
 .metroblue-bg {background: #3085D6; color:#ffffff;}
+.metroblue-light-bg {background: #599DDE; color:#ffffff;}
 .metroblue-bg small {color: #ffffff;}
 
 .metroorange-bg {background: #CE8303; color:#ffffff;}
+.metroorange-light-bg {background: #D89C35; color:#ffffff;}
 .metroorange-bg small {color: #ffffff;}
 
 .metrocloud-bg {background: #F2F2F2;}
+.metrocloud-light-bg {background: #F5F5F5;}
 
+
+/* bootstrap */
 
 .default-bg {background: #f9f9f9; color: #363636;}
 .default-bg small {color: #363636;}
@@ -151,7 +168,30 @@ h1, h2, h3, h4 {
 .danger-bg small {color: #ffffff;}
 
 
+/* font
+------- */
 
+.moradared {color: #b5152b;}
+.metroredlight {color: #e74c3c;}
+.metrogold {color: #CCA55F;}
+
+
+/* layout
+--------- */
+
+.color-tile {
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+
+
+
+/* --------------------------------- *\
+
+	responsive styles
+
+\* --------------------------------- */
 
 /* lg
 ----- */ 

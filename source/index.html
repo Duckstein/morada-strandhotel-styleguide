@@ -10,7 +10,7 @@
     <meta name="robots" content="noindex, nofollow">
  
     <!-- core css -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto:300,400|Oswald:700" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
     
@@ -81,87 +81,99 @@
         
         <div class="row">
         	<div class="col-xs-12">
-            	<h2>Secondary</h2>
+            	<h2>Secondary &amp; Bootstrap Core Overrides</h2>
             </div>
         </div>
         <div class="row">
        	  <div class="col-md-2 text-center">
             	<div class="color-tile metrored-bg">
-            		<h4>metrored<br><small>#F9F9F9</small></h4>
+            		<h4>metrored<br><small>#C0392B</small></h4>
+                    <p>bootstrap.danger</p>
+                    <h4 class="metroredlight-bg">-light<br><small>#E74C3C</small></h4>
               </div>
+            </div>
+            <div class="col-md-2 text-center">
+            	<div class="color-tile metroblue-bg">
+            		<h4>metroblue<br><small>#3085D6</small></h4>
+                    <p>bootstrap.primary</p>
+                    <h4 class="metroblue-light-bg">-light<br><small>#599DDE</small></h4>
+                </div>
             </div>
             <div class="col-md-2 text-center">
             	<div class="color-tile metrogreen-bg">
             		<h4>metrogreen<br><small>#5CBE46</small></h4>
+                    <p>bootstrap.success</p>
+                    <h4 class="metrogreen-light-bg">-light<br><small>#7DCB6B</small></h4>
                 </div>
             </div>
             <div class="col-md-2 text-center">
             	<div class="color-tile metrocyan-bg">
             		<h4>metrocyan<br><small>#0DC2A7</small></h4>
+                    <p>bootstrap.info</p>
+                    <h4 class="metrocyan-light-bg">-light<br><small>#3DCEB9</small></h4>
                 </div>
-            </div>
-            <div class="col-md-2 text-center">
-            	<div class="color-tile metroblue-bg">
-            		<h4>metroblue<br><small>#3085D6</small></h4>
-                </div>
-            </div>
+            </div> 
             <div class="col-md-2 text-center">
             	<div class="color-tile metroorange-bg">
             		<h4>metroorange<br><small>#CE8303</small></h4>
+                    <p>bootstrap.warning</p>
+                    <h4 class="metroorange-light-bg">-light<br><small>#D89C35</small></h4>
                 </div>
             </div>
             <div class="col-md-2 text-center">
             	<div class="color-tile metrocloud-bg">
             		<h4>metrocloud<br><small>#F2F2F2</small></h4>
+                    <p>bootstrap.default</p>
+                    <h4 class="metrocloud-light-bg">-light<br><small>#F5F5F5</small></h4>
                 </div>
             </div>
         </div>
         
-        <div class="row">
-        	<div class="col-xs-12">
-            	<h2>Elements</h2>
-                <p class="lead">
-                	We use the twitter bootstrap color-scheme for buttons, labels, alerts etc
-                </p>
-            </div>
-        </div>
-        <div class="row">
-       	  <div class="col-md-2 text-center">
-            	<div class="color-tile default-bg">
-            		<h4>default<br><small>#F9F9F9</small></h4>
-              </div>
-            </div>
-            <div class="col-md-2 text-center">
-            	<div class="color-tile primary-bg">
-            		<h4>primary<br><small>#428BCA</small></h4>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-            	<div class="color-tile success-bg">
-            		<h4>success<br><small>#5CB85C</small></h4>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-            	<div class="color-tile info-bg">
-            		<h4>info<br><small>#5BC0DE</small></h4>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-            	<div class="color-tile warning-bg">
-            		<h4>warning<br><small>#F0AD4E</small></h4>
-                </div>
-            </div>
-            <div class="col-md-2 text-center">
-            	<div class="color-tile danger-bg">
-            		<h4>danger<br><small>#D9534F</small></h4>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <!-- /color swatches -->
 
 <!-- typo -->
+<section id="typo">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-xs-12">
+            	<h1 class="page-header">02 Typography</h1>
+                <h2>Font Family</h2>
+				<p class="lead">
+					We use <strong>Roboto (300, 400, 700)</strong> for body text and <strong>Montserrat (700)</strong> for our display headings. In Our Hero-Section we use <strong>Oswald (700)</strong>. You'll find them all on <a href="https://fonts.google.com/selection?selection.family=Montserrat:700|Oswald:700|Roboto:300,400,700" target="_blank">Google Fonts</a>.
+				</p>
+                <h2>Headings</h2>
+                <div class="panel panel-default">
+					<div class="panel-body">
+						<h1>h1 Heading</h1>
+                        <p class="lead"><span class="label label-default">Roboto light (300)</span> <span class="label label-default">36px</span> <span class="label label-default metrogreydark-bg">#363636 metrogrey dark</span></p>
+                        <h2>h2 Heading</h2>
+                        <p class="lead"><span class="label label-default">Roboto light (300)</span> <span class="label label-default">30px</span> <span class="label label-default metrogreydark-bg">#363636 metrogrey dark</span></p>
+                        <h3>h3 Heading</h3>
+                        <p class="lead"><span class="label label-default">Roboto light (300)</span> <span class="label label-default">24px</span> <span class="label label-default metrogreydark-bg">#363636 metrogrey dark</span></p>
+                        <h3 class="display moradared">Heading .display</h3>
+                        <p class="lead"><span class="label label-default">Montserrat bold (700)</span> <span class="label label-default">uppercase</span> <span class="label label-default">spacing 0.15em</span> <span class="label label-default moradared-bg">#B5152B moradared</span></p>
+                        <h3 class="display metrogold">Heading .display</h3>
+                        <p class="lead"><span class="label label-default metrogold-bg">#B5152B metrogold</span></p>
+                        <h2 class="display vintageshadow metroredlight">Heading .display .vintageshadow</h2>
+                        <p class="lead"><span class="label label-default">Montserrat bold (700)</span> <span class="label label-default">uppercase</span> <span class="label label-default">spacing 0.15em</span> <span class="label label-default metroredlight-bg">#E74C3C metrored light</span></p>
+                        <h1 class="hero">Herotext, Announcement</h1>
+                        <p class="lead"><span class="label label-default">Oswald (700)</span> <span class="label label-default">55px</span> <span class="label label-default">uppercase</span> <span class="label label-default">spacing 0.1em</span></p>
+					</div>
+				</div>
+                <h2>Body Copy</h2>
+                <div class="panel panel-default">
+					<div class="panel-body">
+						<p class="lead">Lead Paragraph (Roboto, 21px, 300)</p>
+                        <p>Paragraph (Roboto, 14px, 300)</p>
+                        <p class="small">Small Text (85%)</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- /typo -->
 
 <!-- javascript -->
