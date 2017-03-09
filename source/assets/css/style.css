@@ -50,7 +50,7 @@ a:focus {
     outline-offset: -2px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-weight: 300;
 	margin-top: 0;
 }
@@ -105,14 +105,32 @@ h1, h2, h3 {
 .moradared-bg {background: #b5152b; color: #ffffff;}
 .moradared-bg small {color: #ffffff;}
 
-.metrored-bg {background: #e74c3c; color: #ffffff;}
-.metrored-bg small {color: #ffffff;}
+.metroredlight-bg {background: #e74c3c; color: #ffffff;}
+.metroredlight-bg small {color: #ffffff;}
 
 .metrogold-bg {background: #CCA55F; color: #ffffff;}
 .metrogold-bg small {color: #ffffff;}
 
-.metrogrey-bg {background: #363636; color: #ffffff;}
-.metrogrey-bg small {color: #ffffff;}
+.metrogreydark-bg {background: #363636; color: #ffffff;}
+.metrogreydark-bg small {color: #ffffff;}
+
+.metrored-bg {background: #C0392B; color:#ffffff;}
+.metrored-bg small {color: #ffffff;}
+
+.metrogreen-bg {background: #5CBE46; color:#ffffff;}
+.metrogreen-bg small {color: #ffffff;}
+
+.metrocyan-bg {background: #0DC2A7; color:#ffffff;}
+.metrocyan-bg small {color: #ffffff;}
+
+.metroblue-bg {background: #3085D6; color:#ffffff;}
+.metroblue-bg small {color: #ffffff;}
+
+.metroorange-bg {background: #CE8303; color:#ffffff;}
+.metroorange-bg small {color: #ffffff;}
+
+.metrocloud-bg {background: #F2F2F2;}
+
 
 .default-bg {background: #f9f9f9; color: #363636;}
 .default-bg small {color: #363636;}
