@@ -81,9 +81,59 @@ h1, h2, h3 {
 
 /* --------------------------------- *\
 
+	color swatches
+
+\* --------------------------------- */
+
+.color-tile {
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+
+
+
+/* --------------------------------- *\
+
 	responsive styles
 
 \* --------------------------------- */
+
+/* background
+------------- */
+
+.moradared-bg {background: #b5152b; color: #ffffff;}
+.moradared-bg small {color: #ffffff;}
+
+.metrored-bg {background: #e74c3c; color: #ffffff;}
+.metrored-bg small {color: #ffffff;}
+
+.metrogold-bg {background: #CCA55F; color: #ffffff;}
+.metrogold-bg small {color: #ffffff;}
+
+.metrogrey-bg {background: #363636; color: #ffffff;}
+.metrogrey-bg small {color: #ffffff;}
+
+.default-bg {background: #f9f9f9; color: #363636;}
+.default-bg small {color: #363636;}
+
+.primary-bg {background: #428bca; color: #ffffff;}
+.primary-bg small {color: #ffffff;}
+
+.info-bg {background: #5bc0de; color: #ffffff;}
+.info-bg small {color: #ffffff;}
+
+.success-bg {background: #5cb85c; color: #ffffff;}
+.success-bg small {color: #ffffff;}
+
+.warning-bg {background: #f0ad4e; color: #ffffff;}
+.warning-bg small {color: #ffffff;}
+
+.danger-bg {background: #d9534f; color: #ffffff;}
+.danger-bg small {color: #ffffff;}
+
+
+
 
 /* lg
 ----- */ 
