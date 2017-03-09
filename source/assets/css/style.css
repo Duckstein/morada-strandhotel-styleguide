@@ -1,0 +1,121 @@
+/* ================================= *\
+
+	custom css
+	v1.0	2015-08-31	jd
+	
+\* ================================= */
+
+
+
+
+/* core overrides
+----------------- */
+
+body {
+	padding-top: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.lead strong {
+	font-weight: 400;
+}
+
+section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+
+/* typo
+------- */
+
+body {
+	font-weight: 300;
+}
+
+a {
+    color: #C0392B;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+	margin-top: 0;
+}
+
+
+
+
+/* --------------------------------- *\
+
+	navbar
+
+\* --------------------------------- */
+
+.navbar-fixed-top {
+	border-width: 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+	font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+
+
+
+/* --------------------------------- *\
+
+	responsive styles
+
+\* --------------------------------- */
+
+/* lg
+----- */ 
+
+@media (min-width: 1200px) {
+	
+}
+
+/* md
+----- */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* sm
+----- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/* xs
+----- */
+
+@media (max-width: 767px) {
+	
+}
+
+/* xs Portrait
+-------------- */
+
+@media (max-width: 479px) {
+	
+}
